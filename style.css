@@ -59,6 +59,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 200px;
 }
 #amount_boxes .box{
@@ -78,4 +79,104 @@
     color: brown;
     background-color: rgb(238, 223, 223); 
     font-family: 'Roboto', sans-serif;
+}
+#amount .other_amount{
+    color: rgb(192, 192, 184);
+    margin-bottom: 15px;
+    
+}
+hr{
+    width: 70%;
+    margin: auto;
+}
+#donate_plan{
+    margin: 100px;
+    padding: 10 80px;
+}
+#donate_plan h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 100px;
+    padding-bottom: 15px;
+}
+#donate_plan p{
+    padding: 0 260px;
+    color: rgb(110, 100, 100);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 5px;
+}
+#donate_boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#donate_boxes .box1{
+    border: none;
+    background-color: rgb(169, 223, 205);
+    margin: 10px;
+    padding: 30px 10px;
+}
+#donate_boxes .box2{
+    border: none;
+    background-color: rgb(245, 208, 208);
+    margin: 10px;
+    padding: 30px 10px;
+}
+#donate_boxes .box3{
+    border: none;
+    background-color: rgb(169, 223, 205);
+    margin: 10px;
+    padding: 30px 10px;
+}
+#donate_boxes .box_text{
+    padding: 10px;
+}
+#my_update 
+{
+    margin: 100px;
+    padding: 10 80px;
+}
+#my_update h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 100px;
+    padding-bottom: 15px;
+}
+#my_update p{
+    padding: 0 260px;
+    color: rgb(110, 100, 100);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 5px;
+}
+#email{
+    background-color: papayawhip;
+    padding: 60px 30px;
+    width: 50%;
+    margin: 35px auto;
+}
+#email button{
+    padding: 10px 40px;
+    border: none;
+    background-color:  rgb(212, 73, 73);
+    color: aliceblue;
+}
+#email input{
+    padding: 10px 40px;
+    color: rgb(202, 202, 202);
+    background-color: rgb(219, 213, 213);
+    border: none;
+}
+footer{
+    background-color: black;
+    padding: 25px 50px;
+}
+footer h3{
+    color: brown;
+    font-family: 'Lobster', cursive;
+   font-weight: 400;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+footer p{
+    color: aliceblue;
 }
