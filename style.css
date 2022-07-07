@@ -131,6 +131,26 @@ hr{
 #donate_boxes .box_text{
     padding: 10px;
 }
+#other_donations{
+    margin: 100px;
+    padding: 10 80px;
+}
+#other_donations h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 100px;
+    padding-bottom: 15px;
+}
+#other_donations .other_boxes{
+     display: flex;
+     justify-content: space-around;
+}
+#other_donations .other_boxes .box{
+    border: none;
+    background-color: rgb(248, 244, 244);
+    margin: 10px;
+    padding: 30px 10px;
+}
 #my_update 
 {
     margin: 100px;
